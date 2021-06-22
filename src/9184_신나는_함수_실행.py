@@ -1,11 +1,6 @@
 import sys
 input = sys.stdin.readline
 arr = [[[0 for _ in range(21)] for _ in range(21)]for _ in range(21)]
-# for i in range(21):
-# 	for j in range(21):
-# 		for k in range(21):
-# 			if i <= 0 or j <=0 or k <= 0:
-# 				arr[i][j][k] = 1
 for i in range(0, 21):
 	for j in range(0, 21):
 		for k in range(0, 21):
