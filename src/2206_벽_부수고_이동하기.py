@@ -1,6 +1,8 @@
 from collections import deque
-n, m = map(int, input().split())
-mp = [list(input()) for _ in range(n)]
+import sys
+input = sys.stdin.readline
+n, m = map(int, input().rstrip().split())
+mp = [list(input().rstrip()) for _ in range(n)]
 mx = [1, 0, -1, 0]
 my = [0, 1, 0, -1]
 q = deque()
